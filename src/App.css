@@ -1,0 +1,16 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  will-change: filter;
+  transition: filter 300ms;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button:hover {
+  filter: drop-shadow(0 0 20px white);
+}
