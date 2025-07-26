@@ -1,0 +1,17 @@
+{
+  "name": "pitch-wasm-vite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "wasm-audio": "file:wasm-audio/pkg"
+  },
+  "devDependencies": {
+    "vite": "^5.2.12",
+    "typescript": "^5.2.2",
+    "@types/audioworklet": "^0.0.57",
+    "@types/wasm-audio": "file:wasm-audio/pkg"
+  }
+}
