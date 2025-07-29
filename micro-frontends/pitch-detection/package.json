@@ -12,6 +12,7 @@
   "devDependencies": {
     "vite": "^5.2.12",
     "typescript": "^5.2.2",
+    "wasm-pack": "0.13.1",
     "@types/audioworklet": "^0.0.57",
     "@types/wasm-audio": "file:wasm-audio/pkg"
   }
