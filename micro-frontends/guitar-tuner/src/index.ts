@@ -3,7 +3,7 @@ import P5 from 'p5'
 // DISCLAIMER: USE OF AI GENERATED CODE
 // The types are wrong because we are using p5.js version 2.0.3 and the types
 // are only updated for version 1.7.6.
-export default async (root: ShadowRoot, context: any): Promise<void> => {
+export default async (root: ShadowRoot, context: { pitchNode: AudioWorkletNode }): Promise<void> => {
   // Create container for p5.js
   root.innerHTML = `
     <style>
