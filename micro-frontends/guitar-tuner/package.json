@@ -1,0 +1,16 @@
+{
+  "name": "guitar-tuner",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@types/p5": "1.7.6",
+    "p5": "2.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.12"
+  }
+}
