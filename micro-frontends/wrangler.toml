@@ -1,0 +1,11 @@
+name = "fretboard"
+compatibility_date = "2025-06-12"
+main = "./worker/index.js"
+
+[build]
+command = "npm run build:cloud"
+
+[assets]
+directory = "./dist/"
+binding = "ASSETS"
+run_worker_first = true

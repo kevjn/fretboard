@@ -1,0 +1,12 @@
+{
+  "name": "micro-frontends",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "/guitar-tuner",
+    "/pitch-detection"
+  ],
+  "scripts": {
+    "build:cloud": "npm run build:cloud --workspaces && ./move-dist.sh"
+  }
+}

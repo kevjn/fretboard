@@ -3,7 +3,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "build:cloud": "./cloud_build.sh && npm run build"
   },
   "dependencies": {
     "wasm-audio": "file:wasm-audio/pkg"
